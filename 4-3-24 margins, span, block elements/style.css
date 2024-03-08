@@ -1,0 +1,15 @@
+.text {
+  background-color: blue;
+  border-radius: 50%;
+  padding: 32px;
+  width: min-content;
+  margin: 40px;
+}
+
+.text-inline {
+  background-color: blue;
+  border-radius: 50%;
+  padding: 32px;
+  font-size: 0px;
+  margin: 40px;
+}
