@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul {
+  /* list-style-type: square;
+  list-style-image: url('../8/checkmark.png'); */
+  text-align: center;
+  list-style: url('../8/checkmark.png') square inside;
+}
+
+ul ::marker {
+  color: red;
+  content: "Content >> ";
+}
