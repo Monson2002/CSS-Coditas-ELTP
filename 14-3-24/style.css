@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.float-container {
+  padding: 2rem;
+  /* display: inline-block; */
+  width: 360px;
+  float: inline-start;
+}
+
+.float-container:nth-child(1) {
+  background-color: green;
+}
+
+.float-container:nth-child(2) {
+  background-color: blue;
+}
+
+.float-container:nth-child(3) {
+  background-color: red;
+}

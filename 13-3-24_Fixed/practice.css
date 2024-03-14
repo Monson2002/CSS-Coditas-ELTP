@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.parent {
+  background-color: orange;
+  padding: 8px;
+  /* position: relative; */
+}
+
+.child:nth-child(1) {
+  background-color: blue;
+  padding: 32px;
+  margin: 16px;
+}
+
+.child:nth-child(2) {
+  background-color: blue;
+  padding: 32px;
+  margin: 16px;
+}
+
+.child:nth-child(3) {
+  background-color: blue;
+  padding: 32px;
+  margin: 16px;
+}
+
+.child:nth-child(4) {
+  background-color: blue;
+  padding: 32px;
+  margin: 16px;
+  position: absolute;
+  left: 24px;
+}

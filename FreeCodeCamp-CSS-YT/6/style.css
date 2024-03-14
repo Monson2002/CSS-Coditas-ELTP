@@ -1,0 +1,15 @@
+body {
+  padding: 10%;
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+
+.input-field, .form-btn {
+  font-size: inherit;
+}
+
+.division-para {
+  text-transform: lowercase;
+  text-decoration: dotted;
+  line-height: 1.5;
+}
