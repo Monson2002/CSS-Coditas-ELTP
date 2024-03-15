@@ -1,0 +1,56 @@
+.btn-container {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.menu-button {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0px solid transparent;
+  width: 5rem;
+}
+
+.menu-button:hover {
+  background-color: rgb(58, 58, 58);
+  padding: 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  border: 0px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-button::before {
+  content: "";
+  position: absolute;
+  border: 0.5rem solid transparent;
+  border-top: 1rem solid black;
+  left: calc(50% - 0.5rem);
+  top: 4rem;
+}
+
+.menu-button:hover .menu {
+  display: block;
+  transition: display 0.3s;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  color: black;
+  background-color: aquamarine;
+  border-radius: 0.5rem;
+  width: 24vw;
+  left: calc(50% - 12vw - 1rem);
+  top: calc(100% - 1rem);
+}
+
+.menu span {
+  display: block;
+}
