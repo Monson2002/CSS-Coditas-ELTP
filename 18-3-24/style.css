@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 1rem;
+  box-shadow: 0px 0px 4px 1px lightgray;
+}
+
+.section {
+  margin: 1rem;
+  padding: 1rem;
+  border: thin solid lightgray;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 4px 1px lightgray;
+}
