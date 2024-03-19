@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  height: 100vh;
+}
+
+.section-top-left {
+  float: inline-start;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: beige;
+  width: 45vw;
+  height: 30vh;
+}
+
+.section-bottom-left {
+  float: inline-end;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: brown;
+  width: 45vw;
+  height: calc(100vh - 30vh - 4rem);
+}
+
+.section-right {
+  float: right;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: burlywood;
+  width: calc(100vw - 45vw - 6rem);
+  height: calc(100vh - 2rem);
+}
