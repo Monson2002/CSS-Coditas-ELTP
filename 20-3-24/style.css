@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 4px 2px lightgray;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.section {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: aqua;
+}
