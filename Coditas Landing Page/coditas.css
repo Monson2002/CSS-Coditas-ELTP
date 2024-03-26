@@ -206,10 +206,120 @@
   color: #2c74d6;
   text-decoration: none;
 }
+/*  */
+.ourWork {
+  margin: 8rem 0 0 0;
+  padding: 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.ourWork-div {
+  margin-bottom: 2rem;
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.ourWork-header {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.ourWork-para {
+  margin-top: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.ourWork-container {
+  background-color: aliceblue;
+  margin-top: 4rem;
+  display: grid;
+  grid-row: 2;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column: 1/-1;
+  row-gap: 1rem;
+}
+
+.ourWork-card {
+  grid-column: span 1;
+  max-width: 18rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border: thin solid white;
+  border-radius: 0.5rem;
+  border-bottom: 0.25rem solid #2c74d6;
+  box-shadow: 0 0 4px 0 lightgray;
+}
+
+.ourWork-content-container {
+  margin: 2rem;
+}
+
+.ourWork-image {
+  max-width: 18rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.ourWork-content-title {
+  font-size: medium;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.ourWork-content-para, .ourWork-content-pills {
+  font-size: small;
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 1rem;
+}
+
+.ourWork-content-para {
+  max-height: 2.6em;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.ourWork-content-pills {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.pill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  border: 0.01rem solid lightgray;
+  border-radius: 1rem;
+}
+
+.ourWork-content-readMore {
+  font-size: small;
+  font-weight: 600;
+  color: #2c74d6;
+  text-decoration: none;
+}
+/*  */
 
 .technologies {
   margin: 8rem 0 0 0;
-  padding: 2rem;
+  padding: 8rem 2rem;
+  background-color: #07172d;
+  color: white;
 }
 
 .technologies-header-div {
@@ -225,7 +335,6 @@
   margin-top: 1rem;
   font-size: medium;
   font-weight: 300;
-  width: 50vw;
 }
 
 .technologies-container {
