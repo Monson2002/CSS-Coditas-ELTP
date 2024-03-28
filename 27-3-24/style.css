@@ -1,0 +1,27 @@
+/* 
+  What is grid - rows, columns, gutters
+  grid-template-[rows | columns]
+  [row- | column- | ]gap
+*/
+
+.grid {
+  display: grid;
+  background-color: aliceblue;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(9, 1fr);
+  height: 90vh;
+}
+
+.nested-grid {
+  display: grid;
+  background-color: blanchedalmond;
+  grid-template-rows: subgrid;
+  grid-column: 2 / 7;
+  grid-row: 2 / 5;
+}
+
+.subitem {
+  background-color: blue;
+  grid-column: 3 / 7;
+  grid-row: 1 / 3;
+}
